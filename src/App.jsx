@@ -54,8 +54,9 @@ function App() {
           <Typography
             level="h2"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', color:'red' } }}
+            onClick={()=>navigate('/')}
+            style={{cursor:'pointer'}}
           >
-            
             MedCompass
           </Typography>
           
@@ -71,7 +72,7 @@ function App() {
           const {name, state, city, address_line2, datasource} = hospital.properties
           
            if(name) return(
-            <Grid lg={6} md={4} sm={4} key={index}>
+            <Grid lg={6} md={6} sm={4} key={index}>
             <Card size="lg" variant="outlined"
             orientation="horizontal" 
             sx={{

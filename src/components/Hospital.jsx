@@ -110,7 +110,7 @@ import arrow from '../assets/arrow.svg'
             </Card>
           </Grid>
   
-          <Grid item lg={6} md={4} sm={4}>
+          <Grid item lg={6} md={6} sm={12}>
           <Card
               size="lg"
               variant="outlined"
